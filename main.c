@@ -8,7 +8,7 @@ char * CrearCadena(int);
 
 int main(int argc,char *argv[]){
     Conjunto * conj = (Conjunto *)malloc(sizeof(Conjunto));
-    
+    printf("");
     
 }
 
