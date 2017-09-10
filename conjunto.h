@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 typedef struct Conjunto{
-    char * alfabeto;
+    char alfabeto[200];
 }Conjunto;
 
 #endif

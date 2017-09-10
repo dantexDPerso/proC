@@ -14,15 +14,7 @@ LisConjunto* CrearLista(LisConjunto* lista,Nodo* cabeza){
 
 Conjunto * CrearConjunto(char *alfabeto){
         Conjunto* conj = (Conjunto *)malloc(sizeof(Conjunto));
-        conj->alfabeto = malloc(sizeof(strlen(alfabeto)));
+       
       return conj;
 }
 
-
-Nodo * CrearNodo(Conjunto* conj){
-        Nodo* nodo = (Nodo *)malloc(sizeof(Nodo));
-        nodo->alfab.alfabeto = CrearCadena(strlen(conj->alfabeto));
-        //strcpy(nodo->alfab.alfabeto,conj->alfabeto);
-        //nodo->siguiente = NULL;
-        return nodo;    
-}

@@ -5,15 +5,16 @@
 
 
 char * CrearCadena(int);
+void programa();
 
 int main(int argc,char *argv[]){
-    Conjunto * conj = (Conjunto *)malloc(sizeof(Conjunto));
-    printf("");
-    
+	programa();
 }
 
+void programa(){
+	char s[100];	
+	printf("dame tu alfabeto : ");
+	scanf("%s",s);
+	printf("%s",s);
 
-char * CrearCadena(int wt){
-char *  st = malloc(sizeof(wt));
-    return st;
 }
